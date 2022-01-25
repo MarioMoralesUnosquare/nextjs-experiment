@@ -23,6 +23,9 @@ import Date from '../components/date'
 }*/
 
 export default function Home({ allPostsData }) {
+  const estilo = {
+    'text-align': 'center'
+  };
   return (
     <Layout home>
       <Head>
@@ -30,7 +33,9 @@ export default function Home({ allPostsData }) {
       </Head>
       <section className={utilStyles.headingMd}>
         <p>Hello, I'm Mario a software enginer currently working at Unosquare &#129412; and this is how I'm trying to learn Next.js an React.js. You can contact me on {' '}
-          <a href="https://www.linkedin.com/in/mario-morales-9a7a36187">LinkedIn.</a>.
+          <a href="https://www.linkedin.com/in/mario-morales-9a7a36187" style={estilo}>
+            <img src='https://upload.wikimedia.org/wikipedia/commons/c/ca/LinkedIn_logo_initials.png' height={70}></img>
+            </a>.
         </p>
       </section>
       <section className= {utilStyles.headingMd}>

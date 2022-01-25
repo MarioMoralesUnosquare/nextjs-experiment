@@ -23,6 +23,9 @@
   .headingMd {
     font-size: 1.2rem;
     line-height: 1.5;
+    transform-origin: 50%;
+    transform: perspective(300px) rotateX(10deg);
+    color: #F6E31C;
   }
   
   .borderCircle {
@@ -58,5 +61,5 @@
   }
 
   .whiteFont {
-    color: white;
+    color: #F6E31C;;
   }
